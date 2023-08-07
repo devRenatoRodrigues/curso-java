@@ -1,0 +1,16 @@
+package controles;
+
+import java.util.Scanner;
+
+public class DesafioDiaSemana {
+public static void main(String[] args) {
+	
+	
+	Scanner entrada = new Scanner(System.in); 
+	System.out.println("Digite um número:");
+	double day = entrada.nextDouble();
+	
+	System.out.println(day);
+	
+}
+}

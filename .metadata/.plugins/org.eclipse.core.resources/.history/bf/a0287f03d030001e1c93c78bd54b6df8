@@ -1,0 +1,15 @@
+package controles;
+
+import java.util.Scanner;
+
+public class WhileInderterminado {
+public static void main(String[] args) {
+	Scanner entrada = new Scanner (System.in);
+	String userType;
+	while(userType.equalsIgnoreCase("sair")) {
+		userType = entrada.next();
+		System.out.println(userType);
+	}
+	entrada.close();
+}
+}

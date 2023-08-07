@@ -1,0 +1,13 @@
+package controles;
+
+public class For2 {
+public static void main(String[] args) {
+	int type = 10;
+	
+	for (int i = 0; i < type; i++) {
+		System.out.println(type - 2);
+		
+	}
+	
+}
+}

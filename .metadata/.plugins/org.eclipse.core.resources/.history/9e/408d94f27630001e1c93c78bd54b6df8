@@ -1,0 +1,27 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioScanner {
+
+public static void main(String[] args) {
+	Scanner entrada = new Scanner(System.in);
+	System.out.println("Digite seu ultimo salário: ");
+	String salario1 = entrada.nextLine();
+	System.out.println("Digite seu penultimo salário: ");
+	String salario2 = entrada.nextLine();
+	System.out.println("Digite seu salário de 3 meses atrás: ");
+	String salario3 = entrada.nextLine();
+	
+	double salario1ToNumber = Double.parseDouble(salario1.replace(",", "."));
+	double salario2ToNumber = Double.parseDouble(salario2.replace(",", "."));
+	double salario3ToNumber = Double.parseDouble(salario3.replace(",", "."));
+	
+	double media = (salario1ToNumber + salario2ToNumber + salario3ToNumber) / 3;
+	
+	System.out.println("A média de salários é :" + media );
+	
+	entrada.close();
+}
+
+}

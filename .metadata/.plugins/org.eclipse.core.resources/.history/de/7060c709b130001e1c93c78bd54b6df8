@@ -1,0 +1,30 @@
+package controles;
+
+import java.util.Scanner;
+
+public class DesafioDiaSemana {
+public static void main(String[] args) {
+	
+	
+	Scanner entrada = new Scanner(System.in); 
+	System.out.println("Digite um dia da semana:");
+	String day = entrada.next();
+	
+	if(day.toLowerCase() == "domingo") {
+		System.out.print(1);
+	} else if(day.toLowerCase() == "segunda") {
+		System.out.print(2);
+	} else if(day.toLowerCase() == "terça") {
+		System.out.print(3);
+	} else if(day.toLowerCase() == "quarta") {
+		System.out.print(4);
+	} else if(day.toLowerCase() == "quinta") {
+		System.out.print(5);
+	} else if(day.toLowerCase() == "sexta") {
+		System.out.print(6);
+	} else if(day.toLowerCase() == "sábado") {
+		System.out.print(7);
+	}
+	entrada.close();
+}
+}

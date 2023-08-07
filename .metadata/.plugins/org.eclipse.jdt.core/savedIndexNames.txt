@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/renato/Documentos/curso-java/.metadata/.plugins/org.eclipse.jdt.core
+2499567451.index
+1865797976.index
+3736901102.index

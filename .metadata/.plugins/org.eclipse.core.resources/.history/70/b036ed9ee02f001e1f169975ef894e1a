@@ -1,0 +1,14 @@
+package fundamentos;
+
+public class Temperatura {
+// (F - 32) x 5/9 = C
+	public static void main(String[] args){	
+	final double ajuste = 32;
+	final double multiplicador = 5 / 9;
+	double toConvert = 20;
+	
+	toConvert = 20;
+	double c = (toConvert - ajuste) * multiplicador;
+	System.out.println(c);
+}
+}

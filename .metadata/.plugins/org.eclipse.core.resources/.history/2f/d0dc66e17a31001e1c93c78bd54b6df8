@@ -1,0 +1,14 @@
+package controles;
+
+public class DesafioFor {
+public static void main(String[] args) {
+	
+	String valor = "######";
+	String user = "#";
+	for (int i = user.length(); i <= valor.length(); i++) {
+System.out.println(valor);
+valor += "#";
+		
+	}
+}
+}

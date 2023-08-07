@@ -1,0 +1,29 @@
+package controles;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+public static void main(String[] args) {
+	//calcular media das notas da turma
+	// usuario digita nota de 10 a zero
+	// se a nota for valida armazena em uma variavel 
+	//nova nota digitada adicionar ao total e calcular 
+	//se o usuario digitar -1 finaliza o programa e mostra o total
+	Scanner entrada = new Scanner(System.in);
+	Double total = 0.0;
+	System.out.println("Digite a nota do aluno");
+	Double userType = entrada.nextDouble();
+	
+	
+	while(userType != -1) {
+		System.out.println("Digite a nota do proximo aluno ou digite -1 para sair");
+		userType = entrada.nextDouble();
+		total += userType;
+	}
+	
+	
+	entrada.close();
+	
+	
+}
+}
